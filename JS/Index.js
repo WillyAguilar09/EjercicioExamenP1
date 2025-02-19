@@ -9,7 +9,7 @@ function CalcSub1() {
         let a = parseInt(strvalor1);
         let b = parseInt(strcant1);
         let subtotal = a * b;
-        document.getElementById("subtotal1").value = subtotal;
+        document.getElementById("subtotal1").value = subtotal.toFixed(2);;
     }
 }
 function CalcSub2() {
@@ -22,7 +22,7 @@ function CalcSub2() {
         let a = parseInt(strvalor1);
         let b = parseInt(strcant1);
         let subtotal = a * b;
-        document.getElementById("subtotal2").value = subtotal;
+        document.getElementById("subtotal2").value = subtotal.toFixed(2);;
     }
 }
 function CalcSub3() {
@@ -35,7 +35,7 @@ function CalcSub3() {
         let a = parseInt(strvalor1);
         let b = parseInt(strcant1);
         let subtotal = a * b;
-        document.getElementById("subtotal3").value = subtotal;
+        document.getElementById("subtotal3").value = subtotal.toFixed(2);;
     }
 }
 function CalcSub4() {
@@ -49,7 +49,7 @@ function CalcSub4() {
         let a = parseInt(strvalor1);
         let b = parseInt(strcant1);
         let subtotal = a * b;
-        document.getElementById("subtotal4").value = subtotal;
+        document.getElementById("subtotal4").value = subtotal.toFixed(2);;
     }
 }
 function CalcSub5() {
@@ -62,7 +62,7 @@ function CalcSub5() {
         let a = parseInt(strvalor1);
         let b = parseInt(strcant1);
         let subtotal = a * b;
-        document.getElementById("subtotal5").value = subtotal;
+        document.getElementById("subtotal5").value = subtotal.toFixed(2);;
     }
 }
 
@@ -109,5 +109,28 @@ function calcular(){
 
         
     }
+
+}
+function limpiar(){
+    document.getElementById("producto1").value="";
+    document.getElementById("cantidad1").value="";
+    document.getElementById("subtotal1").value="";
+    
+    document.getElementById("producto2").value="";
+    document.getElementById("cantidad2").value="";
+    document.getElementById("subtotal2").value="";
+
+    document.getElementById("producto3").value="";
+    document.getElementById("cantidad3").value="";
+    document.getElementById("subtotal3").value="";
+
+    document.getElementById("producto4").value="";
+    document.getElementById("cantidad4").value="";
+    document.getElementById("subtotal4").value="";
+
+    document.getElementById("producto5").value="";
+    document.getElementById("cantidad5").value="";
+    document.getElementById("subtotal5").value="";
+    document.getElementById("Total").value="";
 
 }
